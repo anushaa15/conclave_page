@@ -13,7 +13,9 @@ html,body {
 	background-color: #393B45;
 	height: auto;
 	width: 350px;
-	margin: 10vh auto;
+    margin: auto;
+    
+	margin-top: 10vh;
 	border-radius: 25px;
 	padding-bottom: 1px;
 	box-shadow: 2px 2px 5px #4069E2;
@@ -114,16 +116,15 @@ h3 {
 }
 
 
-@media only screen and (max-width: 780px) {
-    /* Mobile view */
-
+ @media only screen and (max-width: 480px) {
+  
 
     
 
     iframe {
-        width: 30rem;
-        height: 20rem;
-        display: flex;
+        width: 22rem;
+        height: 15rem;
+        display:flex;
         align-items: center;
         justify-content: center;
         margin: auto;
@@ -131,7 +132,7 @@ h3 {
     }
 
     iframe {
-        /* overflow-clip-margin: content-box !important; */
+     
         border-width: 2px;
         border-style: inset;
         border-color: initial;
@@ -141,40 +142,79 @@ h3 {
   
     #card {
         background-color:  #393B45;
-        width: 80%;
+        width: 100%;
        
 
         margin: auto;
+       
+
         margin-bottom: 20vh;
         margin-top: 10vh;
-        /* margin-left: 25%; */
+       
         border-radius: 25px;
         padding-bottom: 1px;
         box-shadow: 2px 2px 5px #4069E2;
 
     }
+    .cards {
+        padding: 15px;
+    }
 
+    
    
     
-  
-    .image-crop {
-      width: 50%;
-      height: auto;
-    }
-  
-    #avatar {
-      width: 90%;
-    }
+
   
     #bio {
       width: 80%;
     }
+
+
+    h1 {
+        color: white;
+        text-align: center;
+        width: 100%;
+        background-color: #E6EBEE;
+        border-radius: 25px 25px 0 0;
+        color: #393B45;
+        padding: 30px 0;
+        font-weight: 800;
+        margin: 0;
+    }
+    
+    
+    h2 {
+        color: white;
+        text-align: center;
+        width: 100%;
+        
+        
+        color: #393B45;
+        padding: 30px 0;
+        font-weight: 800;
+        margin: 0;
+        font-size: 75px;
+    }
+    
+    h3 {
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 45px;
+        
+        
+        color: #393B45;
+       
+        font-weight: 800;
+        margin-top: 3rem;
+    
+    }
   
    
 }
-  
+  /*  
 @media only screen and (min-width: 900px) {
-/* Desktop view */
+
 
     #card {
         width: 450px;
@@ -196,4 +236,4 @@ h3 {
 
 
 }
-
+ */
