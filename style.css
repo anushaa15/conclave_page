@@ -1,0 +1,199 @@
+/* * {
+	padding: 0;
+	margin: 0;
+} */
+
+html,body {
+	background-color: #6E7889;
+	font-family: tahoma, sans-serif;
+	color: #E6EBEE;
+}
+
+#card {
+	background-color: #393B45;
+	height: auto;
+	width: 350px;
+	margin: 10vh auto;
+	border-radius: 25px;
+	padding-bottom: 1px;
+	box-shadow: 2px 2px 5px #4069E2;
+
+}
+
+
+iframe {
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+
+iframe {
+    /* overflow-clip-margin: content-box !important; */
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: #E6EBEE;
+	border-radius: 25px 25px 0 0;
+	color: #393B45;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+}
+
+
+h2 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	
+	
+	color: #393B45;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+    font-size: 75px;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	width: 100%;
+    font-size: 45px;
+	
+	
+	color: #393B45;
+	padding: 30px 0;
+	font-weight: 800;
+	margin-top: 3rem;
+
+}
+.image-crop {
+	display: block;
+	position: relative;
+	background-color: #E6EBEE;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px #4069E2;
+}
+
+#avatar {
+	display: inline;
+	height: 230px;
+	width: auto;
+	margin-left: -34px;
+}
+
+#bio {
+	display: block;
+	margin: 30px auto;
+	width: 280px;
+	height: auto;
+}
+
+#bio p {
+	color: #E6EBEE;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+@media only screen and (max-width: 680px) {
+    /* Mobile view */
+
+
+    
+
+    iframe {
+        width: 30rem;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    iframe {
+        /* overflow-clip-margin: content-box !important; */
+        border-width: 2px;
+        border-style: inset;
+        border-color: initial;
+        border-image: initial;
+        overflow: clip !important;
+    }
+  
+    #card {
+        background-color:  #393B45;
+        width: 80%;
+       
+
+        margin: auto;
+        margin-bottom: 20vh;
+        margin-top: 10vh;
+        /* margin-left: 25%; */
+        border-radius: 25px;
+        padding-bottom: 1px;
+        box-shadow: 2px 2px 5px #4069E2;
+
+    }
+
+   
+    
+  
+    .image-crop {
+      width: 50%;
+      height: auto;
+    }
+  
+    #avatar {
+      width: 90%;
+    }
+  
+    #bio {
+      width: 80%;
+    }
+  
+   
+}
+  
+@media only screen and (min-width: 681px) {
+/* Desktop view */
+
+    #card {
+        width: 450px;
+        background-color:  #393B45;
+    }
+
+    .image-crop {
+        width: 150px;
+        height: 150px;
+    }
+
+    #avatar {
+        width: 150px;
+    }
+
+    #bio {
+        width: 280px;
+    }
+
+
+}
+
